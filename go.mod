@@ -1,4 +1,4 @@
-module github.com/nareshreddivari/testcontainers
+module github.com/nareshreddivari/testcontainer
 
 go 1.22.1
 
