@@ -9,7 +9,7 @@ import (
 	"github.com/redis/go-redis/v9"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dreamsofcode-io/testcontainers/ratelimit"
+	"github.com/nareshreddivari/testcontainer/ratelimit"
 )
 
 func loadClient() (*redis.Client, error) {
