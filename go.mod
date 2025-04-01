@@ -1,4 +1,4 @@
-module github.com/dreamsofcode-io/testcontainers
+module github.com/nareshreddivari/testcontainers
 
 go 1.22.1
 
