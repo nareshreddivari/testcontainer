@@ -29,7 +29,7 @@ func TestRateLimiter(t *testing.T) {
 
 	limiter := ratelimit.New(client, 3, time.Minute)
 
-	ip := "192.168.1.54"
+	ip := "20.51.222.25"
 
 	t.Run("happy path flow", func(t *testing.T) {
 		res, err := limiter.AddAndCheckIfExceeds(ctx, net.ParseIP(ip))
